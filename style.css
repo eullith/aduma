@@ -77,9 +77,12 @@ body{
 }
 
 .p{
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
+.pp{
+    padding-top: 2rem;
+}
 .c{
     padding-left: 6rem;
     padding-right: 0rem;
@@ -89,6 +92,94 @@ body{
     padding-bottom: 0%;
 }
 
+.p-b{
+    padding-bottom: 2rem;
+}
+
 ion-icon {
     color: #3874b9;
   }
+
+.xl{
+    font-size: 80px;
+}
+
+  /* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.btn-outline-primary:active {
+    background-color: #fff !important;
+    color: #3874b9 !important;
+    border-color: #3874b9;
+}
+
+.btn-outline-primary:hover {
+    background-color: #3874b9 !important;
+    border-color: #3874b9 !important;
+}
+
+a.effect-underline:after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: var(--blue);
+    transition: width .3s;
+}
+
+a.effect-underline:hover:after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.effect-underline:after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 3px;
+    background-color: var(--blue);
+    transition: width .3s;
+}
+
+.effect-underline:hover:after {
+    width: 100%;
+    transition: width .3s;
+}
+
+.p-btm{
+    padding-bottom: 5rem;
+}
+
+.py-8 {
+    padding-top: 12rem;
+    padding-bottom: 2rem;
+}
+
+.border-primary{
+    border-color: #3874b9 !important;
+    border-width: 1rem;
+}
