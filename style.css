@@ -7,7 +7,7 @@
 
 body{
     background-color: #d4e5f3;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .blue{
@@ -36,7 +36,7 @@ body{
 
 .py-6 {
     padding-top: 8rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
 }
 
 .py-8 {
@@ -60,11 +60,12 @@ body{
 
 .navbar.navbar-expand-lg.navbar-light li a{
     color: #3874b9 !important;
-    font-weight: 600;
+    font-weight: 700 !important;
+    font-family: 'Monserrat', sans-serif !important;
 }
 
 .light{
-    font-family: Monserrat, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
 
@@ -73,7 +74,7 @@ body{
 }
 
 .p-top{
-    padding-top: 6rem;
+    padding-top: 8rem;
 }
 
 .p{
@@ -100,8 +101,13 @@ ion-icon {
     color: #3874b9;
   }
 
-.xl{
-    font-size: 80px;
+.p-l{
+    padding-left: 3rem;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
 }
 
   /* width */
