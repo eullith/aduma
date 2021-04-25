@@ -1,0 +1,94 @@
+:root {
+    --dark: #0a0a0a;
+    --light: #ffffff;
+    --lavender: #d4e5f3;
+    --blue: #3874b9;
+}
+
+body{
+    background-color: #d4e5f3;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.blue{
+    background-color: var(--blue);
+    color: #3874b9;
+}
+
+.text-blue{
+    color: var(--blue) !important;
+}
+
+.b-right{
+    padding-right: 0.5rem;
+}
+
+#cover{
+    background-image: url('./assets/cover.png');
+    background-size: cover;
+    height: 90vh;
+    background-position: right bottom;
+    display: block;
+    margin: 0%;
+    padding: 0%;
+    position: center;
+}
+
+.py-6 {
+    padding-top: 8rem;
+    padding-bottom: 2rem;
+}
+
+.py-8 {
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+}
+
+.py-4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.card {
+    border: none;
+    background-color: transparent;
+}
+
+.p-bt {
+    padding-bottom: 4rem;
+}
+
+.navbar.navbar-expand-lg.navbar-light li a{
+    color: #3874b9 !important;
+    font-weight: 600;
+}
+
+.light{
+    font-family: Monserrat, sans-serif;
+    font-weight: lighter;
+}
+
+.no-p{
+    padding-right: 0%;
+}
+
+.p-top{
+    padding-top: 6rem;
+}
+
+.p{
+    padding-top: 1rem;
+}
+
+.c{
+    padding-left: 6rem;
+    padding-right: 0rem;
+}
+
+.no-b{
+    padding-bottom: 0%;
+}
+
+ion-icon {
+    color: #3874b9;
+  }
