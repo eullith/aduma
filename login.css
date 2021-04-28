@@ -1,0 +1,80 @@
+:root {
+  --dark: #0a0a0a;
+  --light: #ffffff;
+  --lavender: #d4e5f3;
+  --blue: #3874b9;
+}
+
+.center{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+body{
+  background-color: white;
+}
+
+header{
+  background-color: #d4e5f3;
+}
+
+.blue{
+  background-color: var(--blue);
+  color: #3874b9;
+}
+
+.lavender{
+  background-color: var(--lavender);
+  color: #d4e5f3;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    margin: auto;
+  }
+
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  .form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    font-size: 16px;
+  }
+  .form-signin .form-control:focus {
+    z-index: 2;
+  }
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  ion-icon {
+    color: white;
+  }
+
+  .card-team{
+    background-color: var(--lavender);
+    border-radius: 5px;
+    padding: 1rem;
+  }
+
+  .icon-team{
+    color: var(--blue);
+    padding-bottom: 0.5rem;
+  }
+
+  

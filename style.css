@@ -97,6 +97,10 @@ body{
     padding-bottom: 2rem;
 }
 
+.bb{
+    padding-bottom: 4rem;
+}
+
 ion-icon {
     color: #3874b9;
   }
