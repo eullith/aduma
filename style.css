@@ -198,3 +198,33 @@ a.effect-underline:hover:after {
     border-color: #3874b9 !important;
     border-width: 1rem;
 }
+
+.card-services{
+    background-color: white;
+    border-radius: 7px;
+    color: var(--blue);
+    padding: 1rem;
+}
+
+.card-img{
+    max-width: 20rem;
+    border-radius: 7px;
+}
+
+.card-img-h{
+    max-width: 50rem;
+    border-radius: 7px;
+}
+
+.button{
+    border-radius: 5px;
+}
+
+.monse{
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+}
+
+.icon-service{
+    color: white;
+}
