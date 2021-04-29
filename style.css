@@ -64,6 +64,11 @@ body{
     font-family: 'Monserrat', sans-serif !important;
 }
 
+.nav-services{
+    font-weight: 700 !important;
+    font-family: 'Monserrat', sans-serif !important;
+}
+
 .light{
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
